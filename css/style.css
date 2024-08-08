@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Fuente de Google */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Encabezado */
+header {
+  background-color: black;
+  text-align: center;
+  padding: 9px;
+}
+
+header img {
+  width: 180px;
+  padding: 5px;
+  margin-top: 8px;
+}
+
+header h1 {
+  color: white;
+  padding: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 10;
+  margin: 0;
+}
+
+header nav ul li {
+  margin: 10px;
+  display: inline-block;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+/*pseudoclases*/
+header nav ul li a:hover {
+  text-decoration: underline;
+  color: #7abce1;
+}
+/* títulos h3 */
+h3 {
+  text-align: center;
+  font-size: 1.0em;
+  margin-top: 20px;
+}
+/* títulos h4 */
+h4 {
+  text-align: center;
+  font-size: 2.0em;
+  margin-top: 20px;
+}
+/* Secciones principales */
+
+main {
+  background-color: #fffffff0;
+  padding: 20px;
+  width: 100%;
+  margin: 5;
+}
+section {
+  background-color: #fffffff0;
+  margin-bottom: 0px;
+  width: 100%;
+  padding: 0;
+}
+p {
+  font-size: 1.5em;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+/* Ajuste del tamaño del carrusel */
+.carousel-inner img {
+  width: 100%; 
+  height: auto; 
+  margin: 0 auto; 
+}
+
+/* Ajuste del contenedor del carrusel */
+.carousel {
+  max-width: 40%; 
+  margin: 0 auto; 
+}
+
+/* Pie de página */
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
